@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
 
 
 print ("Name :- Asif Khan")
@@ -25,7 +21,8 @@ str2 = "@whoasifkhan"
 print(hammingDist(str1, str2))
 
 
-# In[ ]:
+
+
 
 
 
