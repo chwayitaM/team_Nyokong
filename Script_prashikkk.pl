@@ -8,3 +8,11 @@ print("Mail = $Mail\n");
 print("Slack_username = $Slack_username\n");
 print("Biostack = $Biostack\n");
 print("twitter handle = $twitter_handle");
+use strict;
+my $Slack_username = 'prashikkk';
+my $twitter_handle = 'prashikkk';
+
+print "$Slack_username:$twitter_handle hd:", hd( $Slack_username, $twitter_handle ); # will give value 0
+
+sub hd{ length( $_[ 0 ] ) - ( ( $_[ 0 ] ^ $_[ 1 ] ) =~ tr[\0][\0] ) }
+__END__
