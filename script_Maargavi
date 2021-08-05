@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+string name, email, username, biostack,handle;
+name = "Maargavi Singh";
+email = "maargavisingh11@gmail.com";
+username = "@maargavi";
+biostack = "drug development and designing";
+handle = "maargavi";
+cout<< "name :" <<name<<endl;
+cout<< "Email Id :" <<email<<endl;
+cout<< "slack username:" <<username<<endl;
+cout<< "Biostack :" <<biostack<<endl;
+cout<< "twitter handle :" <<handle<<endl;
+return 0;
+}
