@@ -7,5 +7,5 @@ main() {
       count++;
     }
   }
-  print('Marwan' ' ' 'mar.khaled@nu.edu.eg' ' ' '@Marwan' ' ' 'drug development' ' ' '@marwan_khaled_' ' ' + count.toString());
+  print('Marwan' ',' 'mar.khaled@nu.edu.eg' ',' '@Marwan' ',' 'drug development' ',' '@marwan_khaled_' ',' + count.toString());
 }
