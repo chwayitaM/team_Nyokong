@@ -1,8 +1,8 @@
 const myBio = () => {
-    const name = "Zainab Ashimiyu-Abdusalam"
+    const name = "Zainab Ashimiyu"
     const email = "ikeoluwa933@gmail.com"
     const slackUsername = "@Zainab"
-    const biostack = "Drug design and development"
+    const biostack = "Drug design"
     const twitterHandle = "@Zainab_ike"
 
     const hammingDistance = (str1 = '', str2 = '') => {
@@ -18,9 +18,6 @@ const myBio = () => {
         return dist;
     };
 
-    console.log(name,",",email, "," ,slackUsername, "," ,biostack,"," ,twitterHandle, "," ,"Hamming distance " + hammingDistance(slackUsername, twitterHandle))
-
-
-
+    console.log(name,",",email, "," ,slackUsername, "," ,biostack,"," ,twitterHandle, ",", 	hammingDistance(slackUsername, twitterHandle))
 }
 myBio()
