@@ -1,5 +1,5 @@
 Name = "Andre Vargas "
-Email = "nzegge.william@ubuea.cm"
+Email = "vargasaguilarandre@gmail.com"
 Slack_username = "@Andre"
 Diostack = "Drug Design snd Development"
 twitter_handle = "@AndreVargasAgu1"
