@@ -21,14 +21,14 @@ namespace Script_ChwayitaM_C_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("name: Chwayita Mgoboza");
-            Console.WriteLine("Emaiil: chwayta99@gmail.com");
-            Console.WriteLine("Slack username: @ChwayitaM");
-            Console.WriteLine("Biostack: Drug design& Development");
-            Console.WriteLine("Twitter Handle: @ChwayiitaM");
+            Console.Write("name: Chwayita Mgoboza , ");
+            Console.Write("Emaiil: chwayta99@gmail.com , ");
+            Console.Write("Slack username: @ChwayitaM , ");
+            Console.Write("Biostack: Drug design& Development , ");
+            Console.Write("Twitter Handle: @ChwayiitaM , ");
             String str1 = "Slack username";
             String str2 = "Twitter handle";
-            Console.WriteLine(Hamming.Distance(str1,str2));
+            Console.Write(Hamming.Distance(str1,str2));
             Console.ReadKey();
         }
     }

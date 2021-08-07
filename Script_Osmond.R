@@ -12,5 +12,4 @@ hamdist <- DescTools::StrDist(Slack_Username, TwitterHandle, method = "levenshte
 bio <- c(name, Email, Slack_Username, BioStack, TwitterHandle, hamdist)
 
 # Print all outputs into a single row of a dataframe
-names(bio) <- c('Name', 'Email', 'Slack_Username', 'BioStack', 'TwitterHandle', 'HammingDistance')
-print(data.frame(t(bio)))
+paste0(bio, collapse = ", ")

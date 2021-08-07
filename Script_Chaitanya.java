@@ -1,7 +1,7 @@
-package com.company;
-
-public class Script_Chaitanya {
-    static int hammingdistance(String str1,String str2) {
+public class Script_Chaitanya 
+   {
+    static int hammingdistance(String str1,String str2) 
+   {
         int count = 0;
         if (str1.length() != str2.length()) {
             return -1;
@@ -20,11 +20,6 @@ public class Script_Chaitanya {
         String Slack_ID = "@Chaitanya";
         String Biostack = "Drug Design & Development";
         String Twitter_Handle = "@ChaitanyaKaran9";
-        System.out.println(Name);
-        System.out.println(Email);
-        System.out.println(Slack_ID);
-        System.out.println(Biostack);
-        System.out.println(Twitter_Handle);
-        System.out.println("Hamming Distance = " + hammingdistance(Slack_ID,Twitter_Handle));
+        System.out.println(Name + " , " + Email + " , " + Slack_ID + " , " + Biostack + " , " + Twitter_Handle + " , " + hammingdistance(Slack_ID,Twitter_Handle));
     }
 }

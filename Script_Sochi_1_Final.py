@@ -16,4 +16,4 @@ def hammingdistance(slack_username,twitter_handle):
 
 hammingdis = hammingdistance(slack_username,twitter_handle)
 
-print(name,email,slack_username,biostack,twitter_handle,hammingdis)
+print(name,',',email,',',slack_username,',',biostack,',',twitter_handle,',',hammingdis)

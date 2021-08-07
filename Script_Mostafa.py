@@ -1,8 +1,3 @@
-print("Name = Mostafa Ahmed\n")
-print("mail = Mos.ahmed@nu.edu.eg \n")
-print("slack username = @Mostafa \n")
-print("biostack = drug discovery and development\n")
-
 def hammingDist(twitter, slack):
     i = 0
     count = 0
@@ -16,4 +11,5 @@ def hammingDist(twitter, slack):
 twitter = "MostafaHammouda"
 slack = "Mos.Tafa.Ahmedd"
 
-print("haming distance =", hammingDist(twitter, slack))
+print("Name = Mostafa Ahmed ", ",", "mail = Mos.ahmed@nu.edu.eg ", ",","slack username = @Mostafa ", ",","biostack = drug discovery and development ", ",",
+"haming distance =", hammingDist(twitter, slack))
