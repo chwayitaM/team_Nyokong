@@ -1,6 +1,6 @@
 $name = "Prashik S. Chavan";
 $Mail = 'gmsbin04.prashik.chavan@gnkhalsa.edu.in';
-$Slack_username = '@prashikkK';
+$Slack_username = '@prashikkk';
 $Biostack = "Drug Development and Designing"; $twitter_handle = "prashikkk"; 
 print("$name, $Mail, $Slack_username, $Biostack, $twitter_handle");
 
